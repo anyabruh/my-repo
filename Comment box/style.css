@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(238, 234, 234, 0.973);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.chat {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    height: 100vh;
+    width: 81.5%;
+    background-color: rgb(227, 227, 230);
+    border: 2px solid rgb(143, 143, 143)
+}
+
+.user-section {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-input {
+    height: 45px;
+    width: 450px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.comment-box {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+#addbtn{
+    height: 45px;
+    width: 90px;
+    border-radius: 10px;
+    background: rgb(59,224,226);
+    background: linear-gradient(177deg, rgba(59,224,226,1) 0%, rgba(46,105,255,1) 100%);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.msg-container {
+    height: 120px;
+    width: 650px;
+    background-color: black;
+    display: flex;
+    margin-bottom:2px;
+}
+
+.user-photo {
+    height: 120px;
+    width: 20%;
+    background-color: rgb(218, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-box {
+    height: 100%;
+    width: 90%;
+    background-color: rgb(218, 214, 214);
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message{
+    height: 70%;
+    width: 80%;
+    padding-top: 10px;
+    overflow: scroll;
+}
+
+.delete-section {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-btn {
+    height: 80%;
+    width: 60px;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+
+
+}
+
+.user-img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
