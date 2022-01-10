@@ -1,0 +1,23 @@
+.heart-react {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star-react {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-react svg {
+  margin: 15px;
+  color: red;
+  font-size: 23px;
+}
+.star-react svg {
+  margin: 15px;
+  color: rgb(248, 183, 42);
+  font-size: 23px;
+}
