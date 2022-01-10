@@ -1,0 +1,27 @@
+.content-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-button {
+  height: 100%;
+  width: 30%;
+}
+
+.image-container {
+  height: 100%;
+  width: 40%;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.right-button {
+  height: 100%;
+  width: 30%;
+}
