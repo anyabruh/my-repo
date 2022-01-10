@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Outfit:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <div id="user-contact-form">
+            <div class="contact-title">
+                <h1>Add New Contact</h1>
+            </div>
+            <!-- Top side of Contact Form (First Name, Last Name, Mobile Phone) -->
+            <div class="user-container-name-info">
+               <div class="user-text-info">
+                   <p>First Name</p>
+                   <p>Last Name</p>
+                   <p>Mobile Number</p>
+               </div>
+               <div class="user-input-info">
+                   <input class='input-first-name'type="text" required>
+                   <input class='input-last-name'type="text">
+                   <input class='input-mobile-phone'type="number">
+               </div>
+            </div>
+            <!-- Bottom side of the Contact Form ( Adress, Country .. etc...)-->
+            <div class="user-adress-container">
+                <div class="user-adress-left">
+                    <p>Address</p>
+                </div>
+                <div class="user-adress-right">
+                    <div class="user-adress-text">
+                        <p>Street</p>
+                        <p>Number</p>
+                        <p>City</p>
+                        <p>Country</p>
+                    </div>
+                    <div class="user-adress-input">
+                        <input class='input-street'type="text">
+                        <input class='input-street-number'type="text">
+                        <input class='input-city'type="text">
+                        <input class='input-country'type="text">
+                    </div>
+                </div>
+            </div>
+            <!-- <button class='send-button'>Send</button> -->
+            <button class='send-button'>Send</button>
+            <button class='update-button'>Update</button>
+            <h3 id='error'>First name and Last name is required</h3>
+        </div>
+        <div id="user-contact-list">
+            <div class="contact-list">
+                <h1>Contact List</h1>
+            </div>
+            <div class="user-container">
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

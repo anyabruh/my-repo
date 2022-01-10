@@ -1,0 +1,288 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#main-container {
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    
+}
+
+#user-contact-form{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-list{
+    border: 2px solid black;
+    height: 80%;
+    width: 70%;
+}
+
+.contact-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.user-container-name-info {
+    height: 40%;
+    border-bottom: 2px solid rgb(201, 201, 201);
+    display: flex;
+    margin: 5px;
+}
+
+
+.user-text-info {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.user-text-info p {
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.user-input-info {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-input-info input {
+    margin-top: 30px;
+    height: 25px;
+    width: 200px;
+}
+
+.user-adress-container {
+    height: 50%;
+    margin: 5px;
+    display: flex;
+}
+
+.user-adress-left {
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid rgb(201, 201, 201);
+    color: white;
+
+}
+
+.user-adress-left p {
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 25px;
+}
+
+.user-adress-right {
+    width: 75%;
+    height: 100%;
+    display: flex;
+}
+
+.user-adress-text {
+    width: 60%;
+    color: white;
+}
+
+.user-adress-text p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.user-adress-input input {
+    margin-top: 29px;
+    height: 25px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.send-button {
+    height: 35px;
+    font-size: large;
+    margin: 5px;
+}
+
+
+
+.update-button {
+    height: 35px;
+    font-size: large;
+    margin: 5px;
+    display: none;
+}
+
+#user-contact-list{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.user-container {
+    margin-left: 40px;
+    width: 95%;
+}
+
+
+.user-card {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid rgb(121, 116, 116);
+    border-radius: 5px;
+    background-color: rgba(250, 250, 244, 0.4);
+    backdrop-filter: blur(10px);
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.user-card:last-child {
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+
+
+.edit-btn {
+    width: 30px;
+    height: 30px;
+}
+
+.delete-btn {
+    width: 35px;
+    height: 35px;
+}
+
+.top-side-contact {
+    display: flex;
+    width: 100%;
+}
+
+.top-side-contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+.top-side-contact p {
+    text-align: justify;
+}
+
+.contact-basic {
+    width: 50%;
+}
+
+.top-buttons {
+    width: 50%;
+    display: flex;
+    align-items:baseline;
+    justify-content:right;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.contact-details img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.username-photo {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+}
+.username-photo img {
+    margin-right: 5px;
+}
+
+.user-phone {
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+    margin-left:6px;
+}
+
+.adress-photo {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+}
+
+.adress-photo img {
+    margin-right: 5px;
+}
+
+
+
+#error {
+    display: none;
+    color: rgb(207, 228, 23);
+    padding-top: 10px;
+    padding-left:150px;
+}
+
+input {
+    background-color:transparent;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
