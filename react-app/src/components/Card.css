@@ -1,0 +1,60 @@
+.card-container {
+  height: 800px;
+  width: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  height: 55%;
+  width: 100%;
+}
+
+.card-text {
+  height: 30%;
+  width: 100%;
+}
+
+.card-buttons {
+  height: 15%;
+  width: 100%;
+  display: flex;
+}
+
+.cart-btn {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-btn {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-title {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-side {
+  height: 25%;
+  display: flex;
+}
+
+.random-text {
+  display: flex;
+  height: 45%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
